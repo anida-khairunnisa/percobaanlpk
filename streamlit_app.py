@@ -72,16 +72,5 @@ if st.button("🔍 Hitung"):
 # Garis
 st.divider()
 
-# Latex
-st.subheader("📘 Contoh Rumus Latex")
-
-st.latex(r'''
-a + ar + ar^2 + ar^3 + \cdots + ar^{n-1}
-=
-\sum_{k=0}^{n-1} ar^k
-=
-a \left(\frac{1-r^n}{1-r}\right)
-''')
-
 # Footer
 st.caption("Dibuat dengan Streamlit 🚀")
